@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\alg">
+      <UniqueIdentifier>{b8812209-d714-465e-87f7-f6072bed763e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\ds">
+      <UniqueIdentifier>{8a241af1-7d29-4335-afef-90c02e5c44dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\alg">
+      <UniqueIdentifier>{b6c1223e-74ac-46de-ad03-c5632603c279}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\ds">
+      <UniqueIdentifier>{053528b5-b82d-4247-ab2b-fd29a0a53ff6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Alg\divideFunction.cpp">
+      <Filter>源文件\alg</Filter>
+    </ClCompile>
+    <ClCompile Include="Alg\sort.cpp">
+      <Filter>源文件\alg</Filter>
+    </ClCompile>
+    <ClCompile Include="Ds\01_SequenceList.cpp">
+      <Filter>源文件\ds</Filter>
+    </ClCompile>
+    <ClCompile Include="Ds\02_SingleLinkedList.cpp">
+      <Filter>源文件\ds</Filter>
+    </ClCompile>
+    <ClCompile Include="Ds\03_DoublyLinkedList.cpp">
+      <Filter>源文件\ds</Filter>
+    </ClCompile>
+    <ClCompile Include="Ds\04_SequenceStack.cpp">
+      <Filter>源文件\ds</Filter>
+    </ClCompile>
+    <ClCompile Include="Ds\05_LinkedStack.cpp">
+      <Filter>源文件\ds</Filter>
+    </ClCompile>
+    <ClCompile Include="Ds\06_CircularQueue.cpp">
+      <Filter>源文件\ds</Filter>
+    </ClCompile>
+    <ClCompile Include="Ds\07_LinkedQueue.cpp">
+      <Filter>源文件\ds</Filter>
+    </ClCompile>
+    <ClCompile Include="Ds\08_LinkedBinaryTree.cpp">
+      <Filter>源文件\ds</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ds\09_BlackRedTree.cpp">
+      <Filter>源文件\ds</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Ds\01_SequenceList.h">
+      <Filter>头文件\ds</Filter>
+    </ClInclude>
+    <ClInclude Include="Ds\02_SingleLinkedList.h">
+      <Filter>头文件\ds</Filter>
+    </ClInclude>
+    <ClInclude Include="Ds\03_DoublyLinkedList.h">
+      <Filter>头文件\ds</Filter>
+    </ClInclude>
+    <ClInclude Include="Ds\04_SequenceStack.h">
+      <Filter>头文件\ds</Filter>
+    </ClInclude>
+    <ClInclude Include="Ds\05_LinkedStack.h">
+      <Filter>头文件\ds</Filter>
+    </ClInclude>
+    <ClInclude Include="Ds\06_CircularQueue.h">
+      <Filter>头文件\ds</Filter>
+    </ClInclude>
+    <ClInclude Include="Ds\07_LinkedQueue.h">
+      <Filter>头文件\ds</Filter>
+    </ClInclude>
+    <ClInclude Include="Ds\08_LinkedBinaryTree.h">
+      <Filter>头文件\ds</Filter>
+    </ClInclude>
+    <ClInclude Include="Alg\sort.h">
+      <Filter>头文件\alg</Filter>
+    </ClInclude>
+    <ClInclude Include="Ds\09_BlackRedTree.h">
+      <Filter>头文件\ds</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
